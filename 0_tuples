@@ -1,0 +1,21 @@
+#unordered and unchangeable
+#allow duplicates
+mytuple = ("apple","banana","cherry")
+print(mytuple)
+print(type(mytuple))
+print(mytuple[1])
+print(mytuple[-1])
+print(mytuple[2:2])
+print(mytuple[:1])
+
+x = ("apples","bananas","cherries")
+y = list(x)
+y[1] = "kiwi"
+x = tuple(y)
+print(x)
+y.append("orange")
+print(y)
+for i in x:
+ print(i)
+
+

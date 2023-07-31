@@ -1,0 +1,24 @@
+cars = ["ford","volvo","bmw"]
+z = cars[0]
+print(z)
+
+for i in cars:
+ print(i)
+
+cars.append("honda")
+cars.pop(1)
+cars.remove("ford")
+
+x = len(cars)
+print(x)
+
+b = cars.reverse()
+print(b)
+
+fruits = ['apple','banana','cherry']
+x = fruits.count("apple")
+print(x)
+
+
+
+
