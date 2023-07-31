@@ -1,0 +1,19 @@
+x = 5
+y = "john"
+print (x)
+print (y)
+d  = 4
+d = "sally"
+print(d)
+ x = str(3)
+ y = int(3)
+ z = float(3)
+
+ x = 5
+ y = "john"
+ print(type(x))
+ print(type(y))
+
+a = 4
+A = "sally"
+
