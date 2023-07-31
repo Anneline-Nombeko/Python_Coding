@@ -1,0 +1,15 @@
+def f(fname):
+ print(fname + "" + "let me hear say dududud!!!!!")
+
+f("anneline")
+
+def my_f(fname,lname)
+ print(fname + " " + lname)
+
+my_f("Anneline","Nombeko")
+
+def my_function(*kids):
+ print("my youngest is " + kids[2])
+
+my_function("limnandi","milani","ngcwalisa","abukwe","simile","zenzele","kwezi")
+
