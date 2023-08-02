@@ -1,0 +1,47 @@
+#store data in values in key:value pairs
+#ordered collection
+#changeable
+#do not allow duplicates
+
+thisdict = {"brand":"ford","model":"mustang","year":"1964"}
+print(thisdict)
+print(thisdict["brand"])
+print(len(thisdict))
+
+#using the dict constructor to create a dictionary object
+myDict = dict(name = "John", age = 36, country = "Norway")
+print(myDict)
+#update dictionary
+myDict.update({"year":2020})
+
+#accessing items
+x = myDict["age"]
+print(x)
+
+#get method to access items
+y = thisdict.get("year")
+print(y)
+g = thisdict.items()
+print (g)
+
+k = thisdict.keys()
+print(k)
+K = myDict.keys()
+
+myDict["country"] = "South Africa"
+print(K)
+
+#check if key exists
+
+if "model" in thisdict:
+ print("yes,'model' is one of the keys in the thisidct dictionary")
+
+#delete and remove dictionary item
+
+del thisdict["model"]
+thisdict.popitem()
+print(thisdict)
+print(thisdict)
+thisdict.clear()
+print(thisdict)
+
