@@ -1,0 +1,9 @@
+class User:
+ pass
+
+user1 = uuser()
+user1.firname = "anne"
+user1.lastname = "Bowman"
+
+print(user1.firstname)
+
